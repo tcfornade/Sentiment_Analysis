@@ -1,0 +1,74 @@
+%
+% Comments go after a '%' sign.
+%
+%
+% Relation: dataSet
+%
+%
+% Attributes: 9     Instances: 4815
+%
+%
+
+@relation dataSet
+
+@attribute 'textID' string
+@attribute 'text' string
+@attribute 'sentiment' string
+@attribute 'Time of Tweet' string
+@attribute 'Age of User' string
+@attribute 'Country' string
+@attribute 'Population -2020' string
+@attribute 'Land Area (Km�)' string
+@attribute 'Density (P/Km�);;;' string
+
+@data
+'f87dea47db','last session of the day  http://twitpic.com/67ezh','neutral','morning',0-20,'afghanistan',38928346,652860,'60;;;'
+'96d74cb729',' shanghai is also really exciting (precisely -- skyscrapers galore). good tweeps in china:  (sh)  (bj).','positive','noon',21-30,'albania',2877797,27400,'105;;;'
+'eee518ae67,"recession hit veronique branquinho, she has to quit her company, such a shame!",negative,night,31-45,algeria,43851044,2381740,18;;;',0,0,0,0,0,0,0,0
+'01082688c6, "happy bday!",positive,morning,46-60,andorra,77265,470,164;;;',0,0,0,0,0,0,0,0
+'33987a8ee5',' http://twitpic.com/4w75p - i like it!!','positive','noon',60-70,'angola',32866272,1246700,'26;;;'
+'726e501993',' that`s great!! weee!! visitors!','positive','night',70-100,'antigua and barbuda',97929,440,'223;;;'
+'261932614e','i think everyone hates me on here   lol','negative','morning',0-20,'argentina',45195774,2736690,'17;;;'
+'afa11da83f," soooooo wish i could, but im in school and myspace is completely blocked",negative,noon,21-30,armenia,2963243,28470,104;;;',0,0,0,0,0,0,0,0
+'e64208b4ef',' and within a short time of the last clue all of them','neutral','night',31-45,'australia',25499884,7682300,'3;;;'
+'37bcad24ca',' what did you get?  my day is alright.. haven`t done anything yet. leaving soon to my stepsister though!','neutral','morning',46-60,'austria',9006398,'8.24e+04','109;;;'
+'24c92644a4','my bike was put on hold...should have known that.... argh total bummer','negative','noon',60-70,'azerbaijan',10139177,82658,'123;;;'
+'43b390b336',' i checked.  we didn`t win','neutral','night',70-100,'bahamas',393244,10010,'39;;;'
+'69d6b5d93e',' .. and you`re on twitter! did the tavern bore you that much?','neutral','morning',0-20,'bahrain',1701575,760,'2239;;;'
+'5c1e0b61a1,"i`m in va for the weekend, my youngest son turns 2 tomorrow......it makes me kinda sad, he is getting so big, check out my twipics",negative,noon,21-30,bangladesh,164689383,130170,1265;;;',0,0,0,0,0,0,0,0
+'504e45d9d9','its coming out the socket  i feel like my phones hole is not a virgin. that`s how loose it is... :`(','negative','night',31-45,'barbados',287375,430,'668;;;'
+'ae93ad52a0,"so hot today =_=  don`t like it and i hate my new timetable, having such a bad week",negative,morning,46-60,belarus,9449323,202910,47;;;',0,0,0,0,0,0,0,0
+'9fce30159a',' miss you','negative','noon',60-70,'belgium',11589623,30280,'383;;;'
+'00d5195223','cramps . . .','negative','night',70-100,'belize',397628,22810,'17;;;'
+'33f19050cf',' you guys didn`t say hi or answer my questions yesterday  but nice songs.','positive','morning',0-20,'benin',12123200,112760,'108;;;'
+'f7718b3c23,"i`m going into a spiritual stagnentation, its exploding my ego!. i now realise, i`m not all that great. and i`m ok with that.",neutral,noon,21-30,bhutan,771608,3.81e+04,20;;;',0,0,0,0,0,0,0,0
+'9ef44428d0','stupid storm. no river for us tonight','negative','night',31-45,'bolivia',11673021,1083300,'11;;;'
+'be634ebeb0','my dead grandpa pays more attention to me than you do','negative','morning',46-60,'bosnia and herzegovina',3280819,51000,'64;;;'
+'3dcf4f7e13,"... need retail therapy, bad. ahhh.....gimme money geebus",negative,noon,60-70,botswana,2351627,566730,4;;;',0,0,0,0,0,0,0,0
+'f0ef04109b','about to go to sleep','neutral','night',70-100,'brazil',212559417,8358140,'25;;;'
+'8be365118e',' you are lame  go make me breakfast!!','negative','morning',0-20,'brunei',437479,5270,'83;;;'
+'c50bdd4567',' thats so cool','positive','noon',21-30,'bulgaria',6948445,108560,'64;;;'
+'334954f215,"hey peoples, dont you just hate being grounded haha, im just sat eating an apple and watching death note (some anime)",neutral,night,31-45,burkina faso,20903273,273600,76;;;',0,0,0,0,0,0,0,0
+'b783916431,"huh, another scarepoint coding sunday",neutral,morning,46-60,burundi,11890784,25680,463;;;',0,0,0,0,0,0,0,0
+'1fa8e6ad66',' look who i found just for you  --->  http://twitter.com/djt2009','positive','noon',60-70,'c�te d'ivoire',26378274,318000,'83;;;'
+'be38b29042,"no ac, the fan doesnt swing our way ... we are sweating it out on a hot humid day",negative,night,70-100,cabo verde,555987,4.03e+03,138;;;',0,0,0,0,0,0,0,0
+'95701e8ed9',' guess that depends on if you want to be on the jury','neutral','morning',0-20,'cambodia',16718965,176520,'95;;;'
+'4dd58ecd2c','resorted to eating mickey ds alone.','neutral','noon',21-30,'cameroon',26545863,472710,'56;;;'
+'cf553cccd5,"there is a faux gothy chick looking at me, sorry i am not going to camden and i like pop-punk and jimmy eat world",neutral,night,31-45,canada,37742154,9093510,4;;;',0,0,0,0,0,0,0,0
+'55c69c2d52',' did he ask for your twitter id? your sun sign?','neutral','morning',46-60,'central african republic',4829767,622980,'8;;;'
+'9b1a52cc02',' where`d you go!','neutral','noon',60-70,'chad',16425864,1259200,'13;;;'
+'cce5c4744a','watching body of lies...good film','positive','night',70-100,'chile',19116201,743532,'26;;;'
+'c7f9d559e2','happy mothers day mumm  xoxo','positive','morning',0-20,'china',1439323776,9388211,'153;;;'
+'3d2478db59','so i really need to put the laptop down & start getting ready for  shindig...but i`ve missed my twitterloves all day','neutral','noon',21-30,'colombia',50882891,1109500,'46;;;'
+'6d846d7d50',' i`m sorry  at least it`s friday?','negative','night',31-45,'comoros',869601,1861,'467;;;'
+'599f51af6b,"feels sorry every time i`m printing out, i use like 200 new papers",negative,morning,46-60,congo (congo-brazzaville),5518087,3.42e+05,16;;;',0,0,0,0,0,0,0,0
+'87daa62920',' 4n? ma rog  never heard of it  esti beat acum? u tweet too much','negative','noon',60-70,'costa rica',5094118,51060,'100;;;'
+'6506dc55ff',' i always forget something when i travel. i am at newark airport.','neutral','night',70-100,'croatia',4105267,55960,'73;;;'
+'746d87f93e','should have left car and walked home! i might need someone to rescue me with petrol! light flashing','neutral','morning',0-20,'cuba',11326616,106440,'106;;;'
+'ef7ef8e474','i`m only updating this so that brett`s phone beeps  but really.. looking at wedding stuff. again.for the next five months.','neutral','noon',21-30,'cyprus',1207359,9240,'131;;;'
+'d3d7b13278," hi there.  i agree!  small children should be running about happy, not breaking down in tears",positive,night,31-45,czechia (czech republic),10708981,77240,139;;;',0,0,0,0,0,0,0,0
+'ddc07db84e','  hope ur havin fun in da club','positive','morning',46-60,'democratic republic of the congo',89561403,2267050,'40;;;'
+'67afe60d31','i miss my old phone it worked so good until i dropped it  i want a new one for my birthday...','neutral','noon',60-70,'denmark',5792202,42430,'137;;;'
+'17d18ba9ef','thinks sg is wonderful','positive','night',70-100,'djibouti',988000,23180,'43;;;'
+'ab57d75f20','  im really sorry i know wallah how u feel this life is shittttttttt','negative','morning',0-20,'dominica',71986,750,'96;;;'
+'f0acd25d8e','not happy','negative','noon',21-30,'dominican republic',10847910,'4.83e+04','225;;;'
