@@ -1,33 +1,25 @@
-
-import csv
 import pandas as pd
-import matplotlib.pyplot as plt
-from removeStopWords import remove_stop_words
 
-# csv file name
-filename = "threads_reviews.csv"
+# Citirea datelor CSV într-un DataFrame pandas
+data = pd.read_csv("dataSet/sentiment_analysis.csv")
 
-# ---- read CSV file using pandas
-dataFrame = pd.read_csv(filename)
-#print(dataFrame.head(7))
+# Salvarea datelor în format ARFF cu adăugarea manuală a liniei @relation
+with open("dataSet/sentiment_analysis_data.arff", "w", encoding='utf-8') as f:
+    # Adăugarea liniei @relation
+    f.write("@relation Google_Play_Reviews\n\n")
 
-#print(dataFrame.info()) #permite sa analizam daca avem valori de null in tabel, pentru ca ulterior sa le putem elimina
+    # Adăugarea definițiilor de atribut pentru fiecare coloană
+    for column in data.columns[:-1]:  # Exclude last column
+        if column == 'rating':
+            f.write("@attribute rating numeric\n")
+        else:
+            f.write(f"@attribute {column} string\n")
+    f.write("@attribute sentiment {positive, negative, neutral}\n\n")  # Last attribute
 
-#cleaning dataset:
-#removing rows
-dataFrame = dataFrame.dropna()
+    f.write("@data\n")
 
-#discover duplicates
-#print(dataFrame.duplicated())
-
-dataFrame.drop_duplicates(inplace=True) #remove all duplicates
-
-print(dataFrame.columns)
-#remove stopWords from description column
-
-def process_description(row):
-    return remove_stop_words(row['review_description'])
-
-dataFrame['review_description'] = dataFrame.apply(process_description, axis=1)
-
-dataFrame.to_csv(filename, index = False)
+    # Scrierea datelor
+    for index, row in data.iterrows():
+        row_values = [f"'{value}'" if isinstance(value, str) else str(value) for value in row.values[:-1]]
+        row_values.append(row.values[-1])  # Append sentiment without quotes
+        f.write(",".join(row_values) + "\n")

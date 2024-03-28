@@ -1,0 +1,24 @@
+@relation Google_Play_Reviews
+
+@attribute 0 numeric
+@attribute 1 numeric
+@attribute 2 numeric
+@attribute 3 numeric
+@attribute sentiment {positive, negative, neutral}
+
+@data
+0,4,2,4,positive
+0,5,3,10,positive
+0,9,3,2,positive
+0,2,3,7,positive
+0,7,3,1,positive
+0,1,2,8,positive
+0,10,1,9,neutral
+0,0,2,0,positive
+0,7,3,1,positive
+0,1,2,8,positive
+0,10,1,9,negative
+0,0,2,0,positive
+0,3,3,6,positive
+0,8,5,3,positive
+0,6,2,5,positive
